@@ -1,0 +1,189 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #373636;
+  background-color: #2c71a5;
+  min-width: 783px;
+}
+
+header {
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  position: fixed;
+  top: 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  margin-left: 10%;
+  width: 30%;
+  font-size: 12px;
+}
+
+.navigation p:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.headLogo {
+  display: flex;
+  margin-left: 35px;
+  margin-top: 40px;
+  height: 35px;
+  width: 55px;
+}
+
+.headLogo:hover {
+  cursor: pointer;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.headWord {
+  margin-top: 12px;
+}
+
+button {
+  font-size: 11px;
+  cursor: pointer;
+  border: 1px solid #373636;
+}
+
+.bodyButton,
+.headButton {
+  display: flex;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.headButton {
+  margin: 45px;
+  padding: 15px 25px;
+  background: #2c71a5;
+  color: #373636;
+}
+
+.headButton:hover {
+  background: #373636;
+  color: #2c71a5;
+}
+
+section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 85vh;
+}
+
+.header {
+  margin: 1vh 10vw;
+  font-size: 35px;
+  text-align: center;
+}
+
+.bodyLogo {
+  margin-top: 10vh;
+  height: 100px;
+  width: 150px;
+}
+
+.bodyParagraph {
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 20px 50px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.bodyButton {
+  margin-top: 10px;
+  padding: 20px 40px;
+  background: #373636;
+  color: #2c71a5;
+}
+
+.bodyButton:hover {
+  background: transparent;
+  color: #373636;
+}
+
+.invision {
+  position: fixed;
+  transform: rotate(-90deg);
+  left: -15px;
+  font-size: 12px;
+}
+.invision p:hover {
+  cursor: pointer;
+  color: #f4f401;
+}
+
+.socialMedia {
+  position: fixed;
+  right: 40px;
+  flex-direction: column;
+  width: 40px;
+  bottom: 50px;
+}
+
+.twitterButton,
+.facebookButton,
+.linkedinButton {
+  background: transparent;
+  color: #2c71a5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 2px;
+}
+
+.twitterButton:hover {
+  background: #373636;
+  color: #2c71a5;
+}
+.facebookButton:hover {
+  background: #373636;
+  color: #2c71a5;
+}
+.linkedinButton:hover {
+  background: #373636;
+  color: #2c71a5;
+}
+
+.facebookButton img {
+  width: 12px;
+  height: 25px;
+}
+
+.linkedinButton img {
+  width: 24px;
+  height: 24px;
+}
+
+.scroll {
+  font-size: 12px;
+  width: 25px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.scroll p:hover {
+  cursor: pointer;
+}
